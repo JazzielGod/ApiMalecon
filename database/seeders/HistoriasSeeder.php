@@ -13,6 +13,6 @@ class HistoriasSeeder extends Seeder
      */
     public function run(): void
     {
-        historias::factory(1)->create();
+        historias::factory(5)->create();
     }
 }

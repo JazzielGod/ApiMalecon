@@ -17,7 +17,7 @@ class ReportesFactory extends Factory
     public function definition(): array
     {
         return [
-            'num_reporte' => $this->faker->unique()->word(),
+            'num_reporte' => $this->faker->unique()->randomNumber(8),
             'nombre' => $this->faker->word(),
             'area' => $this->faker->word(),
             'problema' => $this->faker->word(),

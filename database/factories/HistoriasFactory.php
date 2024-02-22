@@ -20,7 +20,7 @@ class HistoriasFactory extends Factory
             'titulo' => $this->faker->unique()->word(),
             'subtitulo' => $this->faker->word(),
             'descripcion' => $this->faker->text(),
-            'ruta_imagen' => $this->faker->text(),
+            'ruta_imagen' => $this->faker->imageUrl(),
         ];
     }
 }

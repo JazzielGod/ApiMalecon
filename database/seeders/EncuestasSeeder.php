@@ -13,6 +13,6 @@ class EncuestasSeeder extends Seeder
      */
     public function run(): void
     {
-        encuestas::factory(1)->create();
+        encuestas::factory(5)->create();
     }
 }
